@@ -8,7 +8,7 @@ export default function Accordion({ data }) {
           title={el.title}
           text={el.text}
           num={index}
-          key={index}
+          key={el.title}
         />
       ))}
     </div>
